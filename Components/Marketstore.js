@@ -1,0 +1,28 @@
+export default Marketstore = [
+  {
+    id: 1,
+    image: require('../app/src/imag/back1.png'),
+    image2: require('../app/src/imag/Zara.png'),
+    store: 'Zara Global',
+    time: '15m',
+    icon: 'dots-three-horizontal',
+    des: 'Discount in our shops world wide.',
+    product: require('../app/src/imag/product1.png'),
+    like: 30,
+    loc:"Zara New York",
+    likeicon: 'like1',
+  },
+  {
+    id: 2,
+    image: require('../app/src/imag/back2.png'),
+    image2: require('../app/src/imag/b2.png'),
+    store: 'H&M Global',
+    time: '1hr',
+    icon: 'dots-three-horizontal',
+    des: 'Come visit our shops this Saturday!',
+    product: require('../app/src/imag/product2.png'),
+    like: 64,
+    loc:"H&M Global New York",
+    likeicon: 'like1',
+  },
+];
